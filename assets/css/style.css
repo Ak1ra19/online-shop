@@ -30,6 +30,43 @@ body {
     background-color: #1A274E;
 }
 
+.section-header {
+    text-align: center;
+}
+
+.section-header__title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1A274E;
+}
+
+.section-header__description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.section-footer {
+    text-align: center;
+}
+
+.section-footer__button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 24px;
+    background-color: #EBE2D7;
+    color: #1A274E;
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.section-footer__text {
+    color: #707070;
+    font-size: 14px;
+}
+
 /* header */
 
 .header {
@@ -262,22 +299,6 @@ body {
     /* text-align: center; */
 }
 
-.section-header {
-    text-align: center;
-}
-
-.section-header__title {
-    font-size: 42px;
-    font-weight: 700;
-    color: #1A274E;
-}
-
-.section-header__description {
-    font-size: 14px;
-    font-weight: 400;
-    color: #707070;
-}
-
 .products__tags {
     max-width: 975px;
     display: flex;
@@ -410,25 +431,12 @@ body {
 
 /* features */
 
-.features {
-
-}
-
-
-.features__container {
-
-}
-
 .features__wrapper {
     display: flex;
     justify-content: center;
     gap: 40px;
 
     margin: 40px 0 60px;
-}
-
-.features__image {
-
 }
 
 .features__text:last-child {
@@ -488,35 +496,10 @@ body {
     justify-content: space-between;
 }
 
-.section-footer {
-    text-align: center;
-}
-
-.section-footer__button {
-    display: inline-block;
-    padding: 12px 24px;
-    border-radius: 24px;
-    background-color: #EBE2D7;
-    color: #1A274E;
-    font-size: 16px;
-    font-weight: 700;
-
-    margin-bottom: 10px;
-}
-
-.section-footer__text {
-    color: #707070;
-    font-size: 14px;
-}
-
 /* awards */
 
 .awards {
     padding: 60px 0;
-}
-
-.container {
-
 }
 
 .awards__container {
@@ -628,10 +611,6 @@ body {
     color: #1A274E;
 }
 
-.faq__form {
-
-}
-
 .faq__form-title {
     font-size: 18px;
     font-weight: 700;
@@ -682,10 +661,6 @@ body {
 
 .reviews {
 padding: 40px 0 100px;
-}
-
-.container {
-
 }
 
 .reviews__title {
@@ -762,10 +737,6 @@ padding: 40px 0 100px;
     padding: 40px 0;
 }
 
-.footer__top-title {
-
-}
-
 .footer__title {
     font-size: 48px;
     font-weight: 700;
@@ -839,26 +810,9 @@ padding: 40px 0 100px;
     gap: 55px;
 }
 
-.footer__logo {
-
-}
-
-.footer__phone {
-    font-size: 35px;
-    font-weight: 700;
-}
-
-.footer__middle-nav {
-
-}
-
 .footer__nav-list {
     display: flex;
     gap: 15px;
-
-}
-
-.footer__nav-item {
 
 }
 
